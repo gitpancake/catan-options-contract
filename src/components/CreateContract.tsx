@@ -6,7 +6,7 @@ interface Props {
   addNewContract: (contract: Contract) => void;
 }
 
-export const CreateOptionsContract = ({ addNewContract }: Props) => {
+export const CreateTradeContract = ({ addNewContract }: Props) => {
   const [maker, setMaker] = useState<string>("");
   const [taker, setTaker] = useState<string>("");
 
@@ -124,7 +124,7 @@ export const CreateOptionsContract = ({ addNewContract }: Props) => {
           </select>
         </div>
       </div>
-      <p>{dealSentence}</p>
+      {!buttonDisabled && <p>{dealSentence}</p>}
       <div className="flex flex-row justify-center">
         <button
           disabled={buttonDisabled}

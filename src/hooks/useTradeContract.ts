@@ -1,7 +1,7 @@
 import { useCallback, useMemo, useState } from "react";
 import { Contract } from "~/types/Contract";
 
-export const useOptionsContracts = () => {
+export const useTradeContracts = () => {
   const [contractList, setContractList] = useState<Contract[]>([]);
 
   const addNewContract = useCallback((contract: Contract) => {
