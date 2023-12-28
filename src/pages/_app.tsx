@@ -23,7 +23,7 @@ export default function App({ Component, pageProps }: AppProps) {
         />
         <meta property="og:image" content="https://cdn.shopify.com/s/files/1/0581/7171/9848/files/catan_banner.jpg?v=1631079804" />
         <meta property="og:image:secure_url" content="https://cdn.shopify.com/s/files/1/0581/7171/9848/files/catan_banner.jpg?v=1631079804" />
-        <meta property="og:url" content={`https://catan.henrypye.xyz`} />
+        <meta property="og:url" content={`https://catan.trade.henrypye.xyz`} />
         <meta property="og:image:width" content="708" />
         <meta property="og:image:height" content="372" />
         <meta name="twitter:title" content="Catan Options Terminal" />
@@ -33,7 +33,7 @@ export default function App({ Component, pageProps }: AppProps) {
           name="twitter:description"
           content="Picture yourself in the era of discoveries: after a long voyage of great deprivation, your ships have finally reached the coast of an uncharted island. Its name shall be Catan!"
         />
-        <meta name="twitter:url" content={`https://catan.henrypye.xyz`} />
+        <meta name="twitter:url" content={`https://catan.trade.henrypye.xyz`} />
       </Head>
       <Component {...pageProps} />
     </>
